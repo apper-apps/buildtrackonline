@@ -94,11 +94,11 @@ const StaffForm = ({
       newErrors.dailyRate = "Valid daily rate is required";
     }
 
-    if (formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+if (formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = "Invalid email format";
     }
 
-    if (formData.phone && !/^[\d\s\-\+\(\)]+$/.test(formData.phone)) {
+    if (formData.phone && !/^[\d\s\-+()]+$/.test(formData.phone)) {
       newErrors.phone = "Invalid phone number format";
     }
 
