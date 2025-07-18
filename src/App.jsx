@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 import React, { useState } from "react";
 import { ToastContainer } from "react-toastify";
 import ProjectManagementPage from "@/components/pages/ProjectManagementPage";
@@ -20,8 +20,8 @@ function App() {
     setSidebarOpen(false);
   };
 
-  return (
-    <Router>
+return (
+    <BrowserRouter>
       <div className="flex h-screen bg-secondary-50">
         {/* Sidebar */}
         <Sidebar isOpen={sidebarOpen} onClose={handleSidebarClose} />
@@ -58,8 +58,8 @@ function App() {
         pauseOnHover
         theme="light"
         className="z-50"
-      />
-    </Router>
+/>
+    </BrowserRouter>
   );
 }
 
