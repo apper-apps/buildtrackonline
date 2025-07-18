@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "Mike Rodriguez",
+    "role": "foreman",
+    "hourlyRate": 45,
+    "dailyRate": 360,
+    "phone": "(555) 123-4567",
+    "email": "mike.rodriguez@buildtrack.com",
+    "skills": ["Leadership", "Project Management", "Safety Compliance"],
+    "availability": ["2024-01-15", "2024-01-16", "2024-01-17"],
+    "assignments": [1, 5]
+  },
+  {
+    "Id": 2,
+    "name": "Sarah Chen",
+    "role": "electrician",
+    "hourlyRate": 38,
+    "dailyRate": 304,
+    "phone": "(555) 234-5678",
+    "email": "sarah.chen@buildtrack.com",
+    "skills": ["Electrical Systems", "Wiring", "Panel Installation"],
+    "availability": ["2024-01-15", "2024-01-16"],
+    "assignments": [1, 2]
+  },
+  {
+    "Id": 3,
+    "name": "David Thompson",
+    "role": "plumber",
+    "hourlyRate": 36,
+    "dailyRate": 288,
+    "phone": "(555) 345-6789",
+    "email": "david.thompson@buildtrack.com",
+    "skills": ["Pipe Installation", "Fixtures", "Water Systems"],
+    "availability": ["2024-01-15", "2024-01-16", "2024-01-17", "2024-01-18"],
+    "assignments": [1, 4]
+  },
+  {
+    "Id": 4,
+    "name": "Jennifer Martinez",
+    "role": "carpenter",
+    "hourlyRate": 34,
+    "dailyRate": 272,
+    "phone": "(555) 456-7890",
+    "email": "jennifer.martinez@buildtrack.com",
+    "skills": ["Framing", "Finish Work", "Cabinet Installation"],
+    "availability": ["2024-01-15", "2024-01-16"],
+    "assignments": [1, 4]
+  },
+  {
+    "Id": 5,
+    "name": "Robert Kim",
+    "role": "mason",
+    "hourlyRate": 32,
+    "dailyRate": 256,
+    "phone": "(555) 567-8901",
+    "email": "robert.kim@buildtrack.com",
+    "skills": ["Brickwork", "Concrete", "Stone Work"],
+    "availability": ["2024-01-15", "2024-01-16", "2024-01-17"],
+    "assignments": [1, 5]
+  },
+  {
+    "Id": 6,
+    "name": "Lisa Wang",
+    "role": "painter",
+    "hourlyRate": 28,
+    "dailyRate": 224,
+    "phone": "(555) 678-9012",
+    "email": "lisa.wang@buildtrack.com",
+    "skills": ["Interior Painting", "Exterior Painting", "Texture Work"],
+    "availability": ["2024-01-15", "2024-01-16", "2024-01-17", "2024-01-18", "2024-01-19"],
+    "assignments": [2]
+  },
+  {
+    "Id": 7,
+    "name": "James Wilson",
+    "role": "supervisor",
+    "hourlyRate": 42,
+    "dailyRate": 336,
+    "phone": "(555) 789-0123",
+    "email": "james.wilson@buildtrack.com",
+    "skills": ["Site Management", "Quality Control", "Safety Oversight"],
+    "availability": ["2024-01-15", "2024-01-16"],
+    "assignments": [3]
+  },
+  {
+    "Id": 8,
+    "name": "Maria Garcia",
+    "role": "operator",
+    "hourlyRate": 40,
+    "dailyRate": 320,
+    "phone": "(555) 890-1234",
+    "email": "maria.garcia@buildtrack.com",
+    "skills": ["Heavy Equipment", "Crane Operation", "Site Preparation"],
+    "availability": ["2024-01-15", "2024-01-16", "2024-01-17"],
+    "assignments": [3]
+  },
+  {
+    "Id": 9,
+    "name": "Tony Rossi",
+    "role": "laborer",
+    "hourlyRate": 25,
+    "dailyRate": 200,
+    "phone": "(555) 901-2345",
+    "email": "tony.rossi@buildtrack.com",
+    "skills": ["General Labor", "Site Cleanup", "Material Handling"],
+    "availability": ["2024-01-15", "2024-01-16", "2024-01-17", "2024-01-18", "2024-01-19"],
+    "assignments": [5]
+  },
+  {
+    "Id": 10,
+    "name": "Emily Davis",
+    "role": "roofer",
+    "hourlyRate": 35,
+    "dailyRate": 280,
+    "phone": "(555) 012-3456",
+    "email": "emily.davis@buildtrack.com",
+    "skills": ["Shingle Installation", "Flat Roofing", "Gutter Work"],
+    "availability": ["2024-01-15", "2024-01-16", "2024-01-17"],
+    "assignments": []
+  }
+]

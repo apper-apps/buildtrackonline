@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "staffId": 1,
+    "projectId": 1,
+    "taskId": 1,
+    "startDate": "2024-01-15",
+    "endDate": "2024-01-22",
+    "hoursPerDay": 8,
+    "totalCost": 2520
+  },
+  {
+    "Id": 2,
+    "staffId": 2,
+    "projectId": 1,
+    "taskId": 2,
+    "startDate": "2024-02-01",
+    "endDate": "2024-02-15",
+    "hoursPerDay": 8,
+    "totalCost": 3648
+  },
+  {
+    "Id": 3,
+    "staffId": 3,
+    "projectId": 1,
+    "taskId": 3,
+    "startDate": "2024-02-05",
+    "endDate": "2024-02-20",
+    "hoursPerDay": 8,
+    "totalCost": 3456
+  },
+  {
+    "Id": 4,
+    "staffId": 4,
+    "projectId": 1,
+    "taskId": null,
+    "startDate": "2024-01-20",
+    "endDate": "2024-01-25",
+    "hoursPerDay": 8,
+    "totalCost": 1360
+  },
+  {
+    "Id": 5,
+    "staffId": 5,
+    "projectId": 1,
+    "taskId": null,
+    "startDate": "2024-01-25",
+    "endDate": "2024-01-30",
+    "hoursPerDay": 8,
+    "totalCost": 1280
+  },
+  {
+    "Id": 6,
+    "staffId": 6,
+    "projectId": 2,
+    "taskId": 5,
+    "startDate": "2024-02-01",
+    "endDate": "2024-02-05",
+    "hoursPerDay": 8,
+    "totalCost": 896
+  },
+  {
+    "Id": 7,
+    "staffId": 7,
+    "projectId": 3,
+    "taskId": 7,
+    "startDate": "2024-01-08",
+    "endDate": "2024-01-10",
+    "hoursPerDay": 8,
+    "totalCost": 672
+  },
+  {
+    "Id": 8,
+    "staffId": 8,
+    "projectId": 3,
+    "taskId": 7,
+    "startDate": "2024-01-08",
+    "endDate": "2024-01-10",
+    "hoursPerDay": 8,
+    "totalCost": 640
+  },
+  {
+    "Id": 9,
+    "staffId": 9,
+    "projectId": 5,
+    "taskId": 11,
+    "startDate": "2024-04-01",
+    "endDate": "2024-04-05",
+    "hoursPerDay": 8,
+    "totalCost": 800
+  },
+  {
+    "Id": 10,
+    "staffId": 10,
+    "projectId": null,
+    "taskId": null,
+    "startDate": "2024-01-15",
+    "endDate": "2024-01-15",
+    "hoursPerDay": 8,
+    "totalCost": 280
+  }
+]

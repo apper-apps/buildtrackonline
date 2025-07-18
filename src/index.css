@@ -1,0 +1,127 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-none outline-none;
+  }
+  
+  body {
+    @apply font-body text-secondary-800 bg-white antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+  }
+  
+  h1 {
+    @apply text-3xl lg:text-4xl;
+  }
+  
+  h2 {
+    @apply text-2xl lg:text-3xl;
+  }
+  
+  h3 {
+    @apply text-xl lg:text-2xl;
+  }
+  
+  h4 {
+    @apply text-lg lg:text-xl;
+  }
+  
+  h5 {
+    @apply text-base lg:text-lg;
+  }
+  
+  h6 {
+    @apply text-sm lg:text-base;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .glass {
+    @apply backdrop-blur-sm bg-white/80 border border-white/20;
+  }
+  
+  .gradient-border {
+    @apply relative bg-gradient-to-r from-primary-500 to-accent-500 p-px rounded-lg;
+  }
+  
+  .gradient-border::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-primary-500 to-accent-500 rounded-lg opacity-75 blur-sm;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent;
+  }
+  
+  .construction-gradient {
+    @apply bg-gradient-to-br from-primary-500 via-primary-600 to-accent-500;
+  }
+  
+  .timeline-row {
+    @apply hover:bg-secondary-50 transition-colors duration-200;
+  }
+  
+  .timeline-assignment {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 rounded shadow-soft cursor-move;
+  }
+  
+  .timeline-assignment:hover {
+    @apply shadow-medium transform scale-105;
+  }
+  
+  .drag-ghost {
+    @apply opacity-50 scale-110 shadow-strong;
+  }
+}
+
+/* React Toastify Overrides */
+.Toastify__toast-container {
+  @apply font-body text-sm;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-medium min-h-[60px] p-4;
+}
+
+.Toastify__toast--success {
+  @apply bg-success-50 text-success-800 border border-success-200;
+}
+
+.Toastify__toast--error {
+  @apply bg-error-50 text-error-800 border border-error-200;
+}
+
+.Toastify__toast--warning {
+  @apply bg-warning-50 text-warning-800 border border-warning-200;
+}
+
+.Toastify__toast--info {
+  @apply bg-info-50 text-info-800 border border-info-200;
+}
+
+.Toastify__progress-bar {
+  @apply h-1;
+}
+
+.Toastify__toast-body {
+  @apply p-0 m-0;
+}
+
+.Toastify__close-button {
+  @apply text-current opacity-50 hover:opacity-100;
+}
