@@ -16,11 +16,17 @@ const Sidebar = ({ isOpen, onClose }) => {
       icon: "Calendar",
       description: "Project timeline and staff scheduling"
     },
-    {
+{
       name: "Projects",
       href: "/projects",
       icon: "Building2",
       description: "Manage construction projects"
+    },
+    {
+      name: "Project Management",
+      href: "/project-management",
+      icon: "FolderKanban",
+      description: "Comprehensive project oversight"
     },
     {
       name: "Staff",
